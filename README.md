@@ -11,11 +11,15 @@ source venv/bin/activate
 ```
 pip install -r requirements.txt
 ```
-Si quieres pasar las dependencias a un requirements.txt
+Si quieres pasar las dependencias a un requierements.txt
 ```
 pip freeze > requierements.txt
 ```
 
+3. Correr el proyecto
+```
+python manage.py runserver
+```
 Si se mofifican modelos de BD se debe hacer migraciones:
 ```
 python manage.py makemigrations
